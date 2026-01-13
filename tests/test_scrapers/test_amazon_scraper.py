@@ -7,8 +7,8 @@ def scraper():
     return AmazonScraper()
 
 def test_scraper_initialization(scraper):
-    assert scraper.base_url == "https://amazon.ca"
-    assert 'Authorization' in scraper.headers
+    assert scraper.base_url == "https://www.amazon.ca"
+    assert 'Accept' in scraper.headers
 
 @pytest.mark.asyncio
 async def test_valid_product_scraping(scraper):

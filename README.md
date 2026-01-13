@@ -41,35 +41,6 @@ A Python-based web scraper that collects TV prices from various Canadian retaile
 5. Install required packages:
    pip install -r requirements.txt
 
-## Project Structure
-
-project/
-├── data/
-│ ├── cache/ # Cached results
-│ └── results/ # Scraped results (e.g., visions_prices_20250327_171622.json)
-├── logs/ # Log files
-├── scrapers/  
-│ ├── **init**.py
-│ ├── amazon_scraper.py
-│ ├── bestbuy_scraper.py
-│ ├── canadiantire_scraper.py
-│ ├── costco_scraper.py
-│ ├── dufresne_scraper.py
-│ ├── lg_scraper.py
-│ ├── londondrugs_scraper.py
-│ ├── samsung_scraper.py
-│ ├── staples_scraper.py
-│ ├── tanguay_scraper.py
-│ ├── teppermans_scraper.py
-│ └── visions_scraper.py
-├── .env # Environment variables (if needed)
-├── CHANGELOG.md # Project changes history
-├── main.py # Main script
-├── price_scraper.py # Price scraper implementation
-├── products.json # Sample product list
-├── requirements.txt # Package dependencies
-└── README.md # This file
-
 ## Usage
 
 1. Ensure your virtual environment is activated (you should see `(venv)` in your terminal)
